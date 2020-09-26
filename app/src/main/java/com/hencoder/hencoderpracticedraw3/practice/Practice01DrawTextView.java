@@ -33,5 +33,8 @@ public class Practice01DrawTextView extends View {
 
         // 使用 drawText() 来绘制文字
         // 文字坐标： (50, 100)
+        Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint.setTextSize(64);
+        canvas.drawText("Hello Hencoder", 50, 100, paint);
     }
 }
